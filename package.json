@@ -1,0 +1,22 @@
+{
+  "name": "event-express-superagent-conekta",
+  "version" : "0.1.0",
+  "description": "An example of how to use expressjs, superagent and Conekta REST API in @tijuanaJs",
+  "author": "Javier Murillo <javier@conekta.io> (https://github.com/javiermurillo)",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiermurillo/tijuanajs-express-superagent-conekta"
+  },
+  "bugs": { "url": "https://github.com/javiermurillo/tijuanajs-express-superagent-conekta/issues"},
+  "keywords": ["conekta", "tijuanajs"],
+  "scripts": {"start": "node server.js"},
+  "dependencies": {
+    "morgan": "~1.2.2",
+    "express": "~4.7.2",
+    "body-parser": "~1.5.2",
+    "errorhandler": "~1.1.1",
+    "superagent": "latest"
+  }
+}
